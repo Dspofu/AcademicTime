@@ -31,14 +31,15 @@ CREATE TABLE IF NOT EXISTS professor (
 	is_substituto INTEGER NOT NULL
 )
 
-CREATE TABLE IF NOT EXISTS turmas (
+--Juntado com agenda em disciplinas
+/*CREATE TABLE IF NOT EXISTS turmas (
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
 	name TEXT NOT NULL,
 	id_turno INTEGER NOT NULL,
 	id_modalidade INTEGER NOT NULL,
 	FOREIGN KEY (id_turno) references turno(id),
 	FOREIGN KEY (id_modalidade) references modalidade(id)
-)
+)*/
 
 CREATE TABLE IF NOT EXISTS materias (
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -46,7 +47,22 @@ CREATE TABLE IF NOT EXISTS materias (
 	is_exatas INTEGER NOT NULL
 )
 
-CREATE TABLE IF NOT EXISTS agenda (
+CREATE TABLE IF NOT EXISTS disciplinas(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	id_materia INTEGER NOT NULL,
+	id_professor INTEGER NOT NULL,
+
+	nome_turma VARCHAR(3) NOT NULL,
+	auals_semanais_exigidas INTEGER NOT NULL,
+	id_tipo_geminada INTEGER NOT NULL,
+	tipo_recurso_exigido INTEGER,
+
+	FOREIGN KEY (id_tipo_geminada) references tipo_geminada(id),
+	FOREIGN KEY (tipo_recurso_exigido) references sala(id)
+);
+
+--Juntado com turmas em disciplinas
+/*CREATE TABLE IF NOT EXISTS agenda (
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
 	id_professor INTEGER NOT NULL,
 	id_turma INTEGER NOT NULL,
@@ -57,7 +73,7 @@ CREATE TABLE IF NOT EXISTS agenda (
 	FOREIGN KEY (id_turma) references turma(id),
 	FOREIGN KEY (id_materia) references materia(id),
 	FOREIGN KEY (id_tipo_geminada) references tipo_geminada(id)
-)
+)*/
 
 CREATE TABLE IF NOT EXISTS preferencias (
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -105,3 +121,17 @@ CREATE TABLE IF NOT EXISTS alocacao (
 	FOREIGN KEY (id_dia_semana) references dias_semana(id),
 	FOREIGN KEY (id_slot_horario) references slot_horario(id),
 )
+
+--Adicionado para limitação de recursos compartilhados pela faculdade
+CREATE TABLE IF NOT EXISTS sala {
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  nome_ou_codigo VARCHAR(50) NOT NULL, -- "Auditório A", "Lab B205"
+  capacidade INTEGER, -- 80
+  id_tipo INTEGER NOT NULL,
+  FOREIGN KEY (id_tipo) references tipo_sala(id),
+}
+
+CREATE TABLE IF NOT EXISTS tipo_sala {
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  nome TEXT NOT NULL CHECK (nome IN ('comum', 'laboratorio','auditorio','computacao'));
+}
