@@ -1,0 +1,175 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+// 1. INFRAESTRUTURA DE TEMPO E ESPAÇO
+
+model DiaSemana {
+  id_dia String @id
+  nome   String
+  ordem  Int
+
+  professoresIndesejados ProfessorDiaIndesejado[]
+  alocacoes              Alocacao[]
+
+  @@map("dia_semana")
+}
+
+model SlotHorario {
+  id_slot        Int     @id
+  horario_inicio String?
+  horario_fim    String?
+  turno          String
+
+  alocacoes Alocacao[]
+
+  @@map("slot_horario")
+}
+
+model Sala {
+  id_sala      String  @id @default(uuid())
+  nome_codigo  String
+  capacidade   Int
+  tipo_recurso String
+  ativa        Boolean @default(true)
+
+  alocacoes Alocacao[]
+
+  @@map("sala")
+}
+
+// 2. CATÁLOGO ACADÊMICO
+
+model Disciplina {
+  id_disciplina           String @id @default(uuid())
+  codigo                  String @unique
+  nome                    String
+  carga_horaria_semestral Int?
+  aulas_por_semana_padrao Int?   @default(4)
+
+  ofertas OfertaDisciplina[]
+
+  @@map("disciplina")
+}
+
+// 3. ATORES (RH E ACESSO)
+
+model Professor {
+  id_professor            String  @id @default(uuid())
+  nome                    String
+  email                   String?
+  carga_horaria_meta      Int
+  is_substituto           Boolean @default(false)
+  prefere_aulas_geminadas Boolean @default(true)
+
+  diasIndesejados ProfessorDiaIndesejado[]
+  modalidadesPref ProfessorModalidadePref[]
+  usuarios        Usuario[]
+  ofertas         OfertaDisciplina[]
+
+  @@map("professor")
+}
+
+model ProfessorDiaIndesejado {
+  id_professor String
+  id_dia       String
+
+  professor Professor @relation(fields: [id_professor], references: [id_professor])
+  dia       DiaSemana @relation(fields: [id_dia], references: [id_dia])
+
+  @@id([id_professor, id_dia])
+  @@map("professor_dia_indesejado")
+}
+
+model ProfessorModalidadePref {
+  id_professor String
+  modalidade   String
+
+  professor Professor @relation(fields: [id_professor], references: [id_professor])
+
+  @@id([id_professor, modalidade])
+  @@map("professor_modalidade_pref")
+}
+
+model Usuario {
+  id_usuario             String  @id @default(uuid())
+  email                  String  @unique
+  senha_hash             String
+  perfil                 String
+  ativo                  Boolean @default(true)
+  id_professor_vinculado String?
+
+  professor Professor? @relation(fields: [id_professor_vinculado], references: [id_professor])
+
+  @@map("usuario")
+}
+
+// 4. PLANEJAMENTO (OFERTAS)
+
+model OfertaDisciplina {
+  id_oferta String @id @default(uuid())
+
+  id_disciplina String
+  id_professor  String
+
+  turma_sufixo String
+
+  aulas_semanais_exigidas Int
+  is_pie                  Boolean @default(false)
+
+  tipo_recurso_exigido String
+  capacidade_minima    Int
+
+  permite_geminada Boolean @default(true)
+
+  disciplina Disciplina @relation(fields: [id_disciplina], references: [id_disciplina])
+  professor  Professor  @relation(fields: [id_professor], references: [id_professor])
+  alocacoes  Alocacao[]
+
+  @@map("oferta_disciplina")
+}
+
+// 5. CONFIGURAÇÃO DO SOLVER
+
+model ConfiguracaoRestricao {
+  id_config String @id
+
+  peso_dia_indesejado       Int? @default(10)
+  peso_modalidade_indesejada Int? @default(5)
+  peso_preferencia_geminada Int? @default(2)
+  peso_evitar_janelas       Int? @default(20)
+
+  ativo_regra_pie          Boolean? @default(true)
+  ativo_limite_3_aulas_dia Boolean? @default(true)
+
+  tempo_maximo_execucao_seg Int? @default(300)
+
+  @@map("configuracao_restricao")
+}
+
+// 6. RESULTADO (SAÍDA DO SOLVER)
+
+model Alocacao {
+  id_alocacao String @id @default(uuid())
+
+  id_oferta String
+  id_dia    String
+  id_slot   Int
+  id_sala   String
+
+  data_geracao DateTime? @default(now())
+
+  oferta OfertaDisciplina @relation(fields: [id_oferta], references: [id_oferta])
+  dia    DiaSemana        @relation(fields: [id_dia], references: [id_dia])
+  slot   SlotHorario      @relation(fields: [id_slot], references: [id_slot])
+  sala   Sala             @relation(fields: [id_sala], references: [id_sala])
+
+  @@unique([id_sala, id_dia, id_slot])
+  @@unique([id_oferta, id_dia, id_slot])
+  @@map("alocacao")
+}

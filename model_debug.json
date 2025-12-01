@@ -1,0 +1,2308 @@
+{
+  "optimize": "custo",
+  "opType": "min",
+  "constraints": {
+    "carga_0932e128-8b87-40be-9874-eb8470e03de5": {
+      "equal": 4
+    },
+    "carga_65eff554-2b5a-418a-89d3-a0aef060f513": {
+      "equal": 4
+    },
+    "carga_17b8db70-f56a-4df5-8d93-09356050284a": {
+      "equal": 4
+    },
+    "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": {
+      "equal": 4
+    },
+    "carga_7205e8e4-10d9-4c99-9103-5eafd7f5d6d2": {
+      "equal": 4
+    },
+    "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": {
+      "equal": 4
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_1": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_2": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_3": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_4": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_1": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_2": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_3": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_4": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_1": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_2": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_3": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_4": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_1": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_2": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_3": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_4": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_1": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_2": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_3": {
+      "max": 1
+    },
+    "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_4": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_SEG_1": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_SEG_2": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_SEG_3": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_SEG_4": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_TER_1": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_TER_2": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_TER_3": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_TER_4": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_QUA_1": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_QUA_2": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_QUA_3": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_QUA_4": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_QUI_1": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_QUI_2": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_QUI_3": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_QUI_4": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_SEX_1": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_SEX_2": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_SEX_3": {
+      "max": 1
+    },
+    "prof_8d252890-f0e3-458e-96ec-7af99a1540d9_SEX_4": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_1": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_2": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_3": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_4": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_1": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_2": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_3": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_4": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_1": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_2": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_3": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_4": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_1": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_2": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_3": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_4": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_1": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_2": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_3": {
+      "max": 1
+    },
+    "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_4": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_1": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_2": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_3": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_4": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_1": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_2": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_3": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_4": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_1": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_2": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_3": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_4": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_1": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_2": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_3": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_4": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_1": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_2": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_3": {
+      "max": 1
+    },
+    "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_4": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_1": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_2": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_3": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_4": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_1": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_2": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_3": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_4": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_1": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_2": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_3": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_4": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_1": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_2": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_3": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_4": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_1": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_2": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_3": {
+      "max": 1
+    },
+    "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_4": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_1": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_2": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_3": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_4": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_1": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_2": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_3": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_4": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_1": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_2": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_3": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_4": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_1": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_2": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_3": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_4": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_1": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_2": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_3": {
+      "max": 1
+    },
+    "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_4": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_1": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_2": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_3": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_4": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_1": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_2": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_3": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_4": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_1": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_2": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_3": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_4": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_1": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_2": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_3": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_4": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_1": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_2": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_3": {
+      "max": 1
+    },
+    "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_4": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_SEG_1": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_SEG_2": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_SEG_3": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_SEG_4": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_TER_1": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_TER_2": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_TER_3": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_TER_4": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_QUA_1": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_QUA_2": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_QUA_3": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_QUA_4": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_QUI_1": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_QUI_2": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_QUI_3": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_QUI_4": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_SEX_1": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_SEX_2": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_SEX_3": {
+      "max": 1
+    },
+    "sala_0aae3e22-5c2a-4ea2-8946-a7d725f28aae_SEX_4": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_SEG_1": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_SEG_2": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_SEG_3": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_SEG_4": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_TER_1": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_TER_2": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_TER_3": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_TER_4": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_QUA_1": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_QUA_2": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_QUA_3": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_QUA_4": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_QUI_1": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_QUI_2": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_QUI_3": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_QUI_4": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_SEX_1": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_SEX_2": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_SEX_3": {
+      "max": 1
+    },
+    "sala_64dca863-49d7-4026-9fed-d3ea77113ac3_SEX_4": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_SEG_1": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_SEG_2": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_SEG_3": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_SEG_4": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_TER_1": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_TER_2": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_TER_3": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_TER_4": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_QUA_1": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_QUA_2": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_QUA_3": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_QUA_4": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_QUI_1": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_QUI_2": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_QUI_3": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_QUI_4": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_SEX_1": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_SEX_2": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_SEX_3": {
+      "max": 1
+    },
+    "sala_17affd6b-23ef-45ed-a87e-2a464c241978_SEX_4": {
+      "max": 1
+    }
+  },
+  "variables": {
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEG_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_TER_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUA_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_QUI_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_1": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_2": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_3": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_4": 1
+    },
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_65eff554-2b5a-418a-89d3-a0aef060f513": 1,
+      "prof_1db56411-5423-498b-b3a1-18e99c36c008_SEX_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEG_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_TER_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUA_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_QUI_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_1": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_2": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_3": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_4": 1
+    },
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_17b8db70-f56a-4df5-8d93-09356050284a": 1,
+      "prof_339f4ba1-34e2-49e8-95ce-2c348913747f_SEX_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_1": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_2": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_3": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_4": 1
+    },
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_d26be645-57a2-459d-9c1f-c4d02abfa999": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEG_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEG_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEG_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEG_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_TER_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_TER_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_TER_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_TER_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUA_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUA_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUA_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUA_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_QUI_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_QUI_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 10,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_QUI_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_QUI_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_1": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_1": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h1|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_1": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_1": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_2": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_2": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h2|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_2": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_2": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_3": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_3": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h3|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_3": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_3": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_4": 1,
+      "sala_92cd2f51-3714-4add-a3d0-f72b3e59d9d2_SEX_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_4": 1,
+      "sala_6fda44c8-8102-4671-bf4f-ce08a5b6539b_SEX_4": 1
+    },
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h4|rb91ef334-780c-4326-984f-0c08ae90021f": {
+      "custo": 20,
+      "carga_a3287729-bcea-44b5-b138-c6c3f88b5363": 1,
+      "prof_7fca00ff-b4b2-4da0-a232-d0e5e2b128a8_SEX_4": 1,
+      "sala_b91ef334-780c-4326-984f-0c08ae90021f_SEX_4": 1
+    }
+  },
+  "ints": {
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEG|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dTER|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUA|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dQUI|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t65eff554-2b5a-418a-89d3-a0aef060f513|dSEX|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEG|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dTER|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUA|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dQUI|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "t17b8db70-f56a-4df5-8d93-09356050284a|dSEX|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEG|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dTER|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUA|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dQUI|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "td26be645-57a2-459d-9c1f-c4d02abfa999|dSEX|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEG|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dTER|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUA|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dQUI|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h1|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h1|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h1|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h2|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h2|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h2|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h3|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h3|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h3|rb91ef334-780c-4326-984f-0c08ae90021f": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h4|r92cd2f51-3714-4add-a3d0-f72b3e59d9d2": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h4|r6fda44c8-8102-4671-bf4f-ce08a5b6539b": 1,
+    "ta3287729-bcea-44b5-b138-c6c3f88b5363|dSEX|h4|rb91ef334-780c-4326-984f-0c08ae90021f": 1
+  }
+}
